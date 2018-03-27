@@ -7,6 +7,6 @@ class DataController {
 
     @GetMapping("/hello")
     fun dataController(): String {
-        return "hello world"
+        return "hello world kotlin"
     }
 }
